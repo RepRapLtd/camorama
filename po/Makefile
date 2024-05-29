@@ -36,7 +36,7 @@ libdir = ${exec_prefix}/lib
 DATADIRNAME = share
 itlocaledir = $(prefix)/$(DATADIRNAME)/locale
 subdir = po
-install_sh = $(SHELL) /home/ensab/Git/camorama/install-sh
+install_sh = $(SHELL) /home/ensab/rrl-cloud/RepRapLtd/Engineering/Internal-Projects/Robots/Vision/camorama/install-sh
 # Automake >= 1.8 provides /bin/mkdir -p.
 # Until it can be supposed, use the safe fallback:
 mkdir_p = $(install_sh) -d
